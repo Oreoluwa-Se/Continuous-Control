@@ -37,7 +37,6 @@ For the test with random sampling the results are shown in the table and photo b
 <p align="center">
 <img src="./results/Random_Sampling/scores.png">
 </p>
-
 For the test with prioritized sampling the results are shown in the table and photo below:
 
 | Total Episodes | Time taken | Training Score | Evaluation Score |
@@ -47,11 +46,9 @@ For the test with prioritized sampling the results are shown in the table and ph
 <p align="center">
 <img src="./results/Priotized_Replay/scores_plot.png">
 </p>
-
 From the results, we see that the sampling with priority takes longer but performs better with lower variance during the evaluation stage.
-
 
 ### Instructions
 
-For instructions on how to run the program check the readme file.  
+For instructions on how to run the program check the [Readme](https://github.com/Oreoluwa-Se/Continuous-Control/blob/main/README.md) file.  
 
