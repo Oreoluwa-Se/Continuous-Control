@@ -28,6 +28,10 @@ The actor and critic networks use two hidden layers making it a 4-layered networ
 The parameters are held constant for the randomly sampled buffer and the prioritiy sampled buffer.
 
 ### Results
+| Total Episodes | Time taken | Training Score | Evaluation Score |
+| -------------  | ------------- | ------------- | ------------- |
+| Content Cell   | Content Cell  | Content Cell  | Content Cell  |
+
 <p align="center">
 <img src="./results/Random_Sampling/scores_plot.png">
 </p>
