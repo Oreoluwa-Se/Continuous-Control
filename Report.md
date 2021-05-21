@@ -23,7 +23,7 @@ DDPG was chosen because of simplicity as I was familiar with the Deep Q-Learning
 #### Network Parameters
 The actor and critic networks use two hidden layers making it a 4-layered network. Each layer has 256 nodes and uses relu activation. The output of the action layers are tanh activation and then rescaled to environment bounds. To encourage exploration and for additional robustness we add gaussian noise to the actions with an exploration ratio of 0.1. Following tuning the network parameters settled on are:
 <p align="center">
-<img src="./results/network_parameters.png">
+<img src="./results/network_parameters.PNG">
 </p>
 The parameters are held constant for the randomly sampled buffer and the prioritiy sampled buffer.
 
