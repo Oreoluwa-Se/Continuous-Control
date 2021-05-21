@@ -29,7 +29,7 @@ The parameters are held constant for the randomly sampled buffer and the priorit
 
 ### Results
 <p align="center">
-<img src="./results/Random_Sampling/scores_plot.PNG">
+<img src="./results/Random_Sampling/scores_plot.png">
 </p>
 
 <p align="center">
