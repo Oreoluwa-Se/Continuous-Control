@@ -25,7 +25,7 @@ The actor and critic networks use two hidden layers making it a 4-layered networ
 <p align="center">
 <img src="./results/network_parameters.PNG">
 </p>
-The parameters are held constant for the randomly sampled buffer and the prioritiy sampled buffer.
+The parameters are held constant for the randomly sampled buffer and the prioritiy sampled buffer. Lastly, we use a soft update scheme so the network learns every time step.
 
 ### Results
 For the test with random sampling the results are shown in the table and photo below:
@@ -35,15 +35,23 @@ For the test with random sampling the results are shown in the table and photo b
 | 133   | 00:48:18  | 37.2±3.3  | 36.8±3.7  |
 
 <p align="center">
-<img src="./results/Random_Sampling/scores_plot.png">
+<img src="./results/Random_Sampling/scores.png">
 </p>
+
+For the test with prioritized sampling the results are shown in the table and photo below:
+
+| Total Episodes | Time taken | Training Score | Evaluation Score |
+| -------------  | ------------- | ------------- | ------------- |
+| 156   | 01:10:06  | 37.7±2.1  | 38.6±1.92  |
 
 <p align="center">
 <img src="./results/Priotized_Replay/scores_plot.png">
 </p>
 
+From the results, we see that the sampling with priority takes longer but performs better with lower variance during the evaluation stage.
+
 
 ### Instructions
 
-Follow the instructions in `Continuous_Control.ipynb` to get started with training your own agent!  
+For instructions on how to run the program check the readme file.  
 
