@@ -30,7 +30,7 @@ The parameters are held constant for the randomly sampled buffer and the priorit
 ### Results
 | Total Episodes | Time taken | Training Score | Evaluation Score |
 | -------------  | ------------- | ------------- | ------------- |
-| Content Cell   | Content Cell  | Content Cell  | Content Cell  |
+| 133   | 00:48:18  | 37.2±3.3  | 36.8±3.7  |
 
 <p align="center">
 <img src="./results/Random_Sampling/scores_plot.png">
